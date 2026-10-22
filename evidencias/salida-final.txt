@@ -1,0 +1,27 @@
+directo=1 | por_puntero=1 | misma_direccion=si
+avance_valido=1
+avance_nulo=0
+despues=2
+lexema=total | longitud=5
+vacio=0 | nulo=0
+lineas_corregidas=5
+-- flujo de tokens --
+[1] INT         lexema=int      longitud=3
+[1] ID          lexema=total    longitud=5
+[1] PUNTOCOMA   lexema=;        longitud=1
+[1] ID          lexema=total    longitud=5
+[1] ASIGNA      lexema==        longitud=1
+[1] LIT_INT     lexema=42       longitud=2
+[1] PUNTOCOMA   lexema=;        longitud=1
+[2] PRINT       lexema=print    longitud=5
+[2] PARIZQ      lexema=(        longitud=1
+[2] ID          lexema=total    longitud=5
+[2] PARDER      lexema=)        longitud=1
+[2] PUNTOCOMA   lexema=;        longitud=1
+cantidad=12
+identificadores=3
+puntos_y_coma=3
+avance_en_fin=0
+primero_print=print linea=2
+desconocido=no encontrado
+intervalo_vacio=0
